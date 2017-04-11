@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    padding: 50px;
+    font-size: 24px;
+    font-family: Roboto;
+}
+
+.left {
+    margin-right: 50px;
+}

@@ -1,0 +1,51 @@
+.book {
+    margin-bottom: 50px;
+    display: flex;
+    padding: 0 50px;
+    line-height: 50px;
+    background-color: rgba(119, 186,153, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.title {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.book:hover {
+    background-color: rgba(119, 186,153, 0.5);
+}
+
+.book.selected {
+    animation: changeBackground 1s ease-in-out forwards;
+}
+
+.book .icon {
+    width: 24px;
+    height: 24px;
+}
+
+.book.selected .icon {
+    animation: scaleIcon 1s ease-in-out forwards;
+}
+
+@keyframes scaleIcon {
+    0%   {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes changeBackground {
+    0%   {
+        background-color: rgba(119, 186,153, 1);
+    }
+    100% {
+        background-color: rgba(195, 80, 80, 1);
+    }
+}

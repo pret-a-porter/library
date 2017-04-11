@@ -1,0 +1,56 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run dev:server & webpack --watch",
+    "dev:server": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pret-a-porter/library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pret-a-porter/library/issues"
+  },
+  "homepage": "https://github.com/pret-a-porter/library#readme",
+  "devDependencies": {
+    "autoprefixer": "~6.7.7",
+    "babel-core": "~6.24.1",
+    "babel-loader": "~6.4.1",
+    "babel-preset-es2015": "~6.24.1",
+    "babel-preset-react": "~6.24.1",
+    "css-loader": "~0.28.0",
+    "eslint": "~3.19.0",
+    "eslint-config-standard": "~10.2.0",
+    "eslint-config-standard-react": "~4.3.0",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-node": "~4.2.2",
+    "eslint-plugin-promise": "~3.5.0",
+    "eslint-plugin-react": "~6.10.3",
+    "eslint-plugin-standard": "~3.0.1",
+    "postcss-custom-properties": "~5.0.2",
+    "postcss-loader": "~1.3.3",
+    "style-loader": "~0.16.1",
+    "webpack": "~2.3.3",
+    "webpack-dev-server": "~2.4.2"
+  },
+  "dependencies": {
+    "classnames": "~2.2.5",
+    "immutable": "~3.8.1",
+    "keymirror": "~0.1.1",
+    "prop-types": "~15.5.7",
+    "react": "~15.5.3",
+    "react-dom": "~15.5.3",
+    "react-redux": "~5.0.4",
+    "react-svg": "~2.1.19",
+    "redux": "~3.6.0",
+    "redux-thunk": "~2.2.0"
+  }
+}
